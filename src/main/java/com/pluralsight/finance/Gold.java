@@ -15,6 +15,6 @@ public class Gold extends FixedAsset {
     // returns the market value inherited from fixedasset
     @Override
     public double getValue() {
-        return super.getValue();
+        return getMarketValue();
     }
 }

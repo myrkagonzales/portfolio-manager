@@ -11,9 +11,17 @@ public class Jewelry extends FixedAsset {
         this.karat = karat;
     }
 
+    public double getKarat() {
+        return karat;
+    }
+
+    public void setKarat(double karat) {
+        this.karat = karat;
+    }
+
     // returns the market value stored in parents class
     @Override
     public double getValue() {
-        return super.getValue();
+        return getMarketValue();
     }
 }

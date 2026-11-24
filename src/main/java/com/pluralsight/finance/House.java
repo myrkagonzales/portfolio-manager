@@ -19,6 +19,6 @@ public class House extends FixedAsset {
     // return the house's market value
     @Override
     public double getValue() {
-        return super.getValue();
+        return getMarketValue();
     }
 }
