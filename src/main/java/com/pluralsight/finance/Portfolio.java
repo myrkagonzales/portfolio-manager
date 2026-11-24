@@ -15,7 +15,7 @@ public class Portfolio {
     // Stores all assets that implement Valuable
     private List<Valuable> assets;
 
-    public Portfolio(String name, String owner, List<Valuable> assets) {
+    public Portfolio(String name, String owner) {
         this.name = name;
         this.owner = owner;
         this.assets = new ArrayList<>();

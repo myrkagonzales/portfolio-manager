@@ -6,7 +6,7 @@ public class CreditCard implements Valuable {
     private String cardNumber;
     private double balance;
 
-    public CreditCard(String cardNumber, double balance) {
+    public CreditCard(String cardNumber) {
         this.cardNumber = cardNumber;
         this.balance = balance;
     }

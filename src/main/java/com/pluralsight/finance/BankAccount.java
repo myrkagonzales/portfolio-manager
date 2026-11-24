@@ -7,7 +7,7 @@ public class BankAccount implements Valuable {
     private double balance;
 
     // initializes the account with a starting balance
-    public BankAccount(String accountNumber, double balance) {
+    public BankAccount(String accountNumber) {
         this.accountNumber = accountNumber;
         this.balance = balance = 0.0;
     }
