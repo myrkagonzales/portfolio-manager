@@ -7,21 +7,24 @@ public abstract class FixedAsset implements Valuable {
     private double marketValue;
 
     //constructor initializes the assets name and value
-
-
     public FixedAsset(String name, double marketValue) {
         this.name = name;
         this.marketValue = marketValue;
     }
 
-    //returns the current value of fixed asset
-    @Override
-    public double getValue() {
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getMarketValue() {
         return marketValue;
     }
 
-    // returns the asset name
-    public String getName() {
-        return name;
+    public void setMarketValue(double marketValue) {
+        this.marketValue = marketValue;
     }
 }
