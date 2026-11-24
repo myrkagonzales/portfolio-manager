@@ -133,7 +133,7 @@ public class FinanceApplication {
             System.out.println("Most Valuable Asset: " + portfolio.getMostValuable().getClass().getSimpleName());
         }
         if (portfolio.getLeastValuable() != null) {
-            System.out.println("Least Valuable Asset:" + portfolio.getLeastValuable().getClass().getSimpleName());
+            System.out.println("Least Valuable Asset: " + portfolio.getLeastValuable().getClass().getSimpleName());
         }
         // close financeScanner
         financeScanner.close();
